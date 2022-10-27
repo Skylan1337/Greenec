@@ -1,0 +1,16 @@
+.main_body {
+    border-top: 2px solid green;
+}
+
+.main_body p {
+    color: black;
+    margin: 0 10%;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.ImageSlider {
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+}

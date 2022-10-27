@@ -1,0 +1,11 @@
+.footer {
+    background-color: black;
+    color: green;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.copyright {
+    margin: 0 10%;
+    padding-top: 20px;
+}
