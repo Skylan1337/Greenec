@@ -14,7 +14,7 @@ function ImageSlider() {
         <Slide indicators={true} transitionDuration={500}>
             <div className="each-slide-effect">
                 <div style={{ 'backgroundImage': `url(${images[0]})` }}>
-                </div>
+            </div>
             </div>
             <div className="each-slide-effect">
                 <div style={{ 'backgroundImage': `url(${images[1]})` }}>

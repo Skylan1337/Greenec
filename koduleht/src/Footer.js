@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="copyright">
-                Kõik õigused kaitstud
+            Greenec OÜ © 2022
             </div>
         </div>
     );

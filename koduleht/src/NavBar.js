@@ -1,7 +1,7 @@
 import './NavBar.css';
 import { Link } from 'react-router-dom';
 
-const NavBar = () => {
+function NavBar() {
 	return (
 		<div className="header">
 			<img src="logo192.png" alt="Logo" title="Greenec OÜ" className="logo" />
@@ -25,6 +25,6 @@ const NavBar = () => {
 			</div>
 		</div>
 	);
-};
+}
 
 export default NavBar;

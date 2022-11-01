@@ -1,8 +1,10 @@
 .footer {
-    background-color: black;
-    color: green;
+    background-color: green;
+    color: white;
     height: 70px;
     margin-top: 20px;
+    position: sticky;
+    width: 100%;
 }
 
 .copyright {
