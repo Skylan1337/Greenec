@@ -7,20 +7,20 @@ function NavBar() {
 			<img src="logo192.png" alt="Logo" title="Greenec OÜ" className="logo" />
 			<div className="nav_links">
 				<ul>
-					<Link to=""><li>Avaleht</li></Link>
+					<Link to=""><li className="special">Avaleht</li></Link>
 					<Link to="teenused">
-						<li>
+						<li className="special">
 							Teenused
 							<div className="nav_dropdown">
 								<ul>
-									<Link to="puistevill"><li>Puistevilla paigaldamine</li></Link>
-									<Link to="pur-vaht"><li>PUR vahu paigaldamine</li></Link>
+									<Link to="puistevill" style={{ textDecoration: 'none' }}><li>Puistevilla paigaldamine</li></Link>
+									<Link to="pur-vaht" style={{ textDecoration: 'none' }}><li>PUR vahu paigaldamine</li></Link>
 								</ul>
 							</div>
 						</li>
 					</Link>
-					<Link to="tehtud-tood"><li>Tehtud tööd</li></Link>
-					<Link to="kontakt"><li>Kontakt</li></Link>
+					<Link to="tehtud-tood"><li className="special">Tehtud tööd</li></Link>
+					<Link to="kontakt"><li className="special">Kontakt</li></Link>
 				</ul>
 			</div>
 		</div>

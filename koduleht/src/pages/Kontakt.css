@@ -1,144 +1,155 @@
 .kontakt {
     color: black;
     margin: 20px 10%;
-    display: grid;
-    grid-template-areas: 
-        "info info info info"
-        "input input joon contact";
-}
-
-.kontakt_info {
-    color: black;
-    margin: auto;
-    margin-bottom: 40px;
-    grid-area: info;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .kontakt form {
-    width: 510px;
-    margin: auto;
-    grid-area: input;
+    width: 500px;
 }
 
 .kontakt .center_vertical_line {
     width: 2px;
-    background-color: green;
-    grid-area: joon;
+    background-color: rgb(21, 78, 21);
     box-shadow: 3px 3px 6px rgba(0,0,0,.25), -3px 0px 6px rgba(0,0,0,.25);
 }
 
-.right {
-    width: 510px;
-    grid-area: contact;
-    font-size: 25px;
-    margin: auto;
+.left {
+    width: 500px;
+}
+
+.kontakt h1 {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    text-align: center;
+    color: rgb(37, 82, 37);
+    font-size: 24px;
+}
+
+.kontakt h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 .inputBox {
     position: relative;
-    width: 500px;
-    margin: 0 10px 10px 0;
+    width: 490px;
+    margin: 0 5px 10px 0;
+    padding-right: 5px;
     display: block;
+}
+
+.inputBox select:hover {
+    cursor: pointer;
 }
 
 .inputBox textarea {
     resize: vertical;
-    min-height: 150px;
+    min-height: 100px;
 }
 
-.inputBox input,
-.inputBox select,
-.inputBox textarea {
+.form_input, .form_select {
     width: 100%;
-    padding: 10px;
-    border: 1px solid green;
-    background: white;
-    border-radius: 5px;
+    padding: 10px 0 10px 5px;
+    border: 1px solid rgb(21, 78, 21);
+    background: transparent;
     outline: none;
-    color: black;
-    font-size: 16px;
-    box-sizing: border-box;
+    font-size: 1em;
+    border-radius: 5px;
     box-shadow: 4px 4px 10px rgba(0,0,0,.25), -4px 0px 10px rgba(0,0,0,.25);
 }
 
-.inputBox span {
+.form_label {
     position: absolute;
+    font-size: 1em;
+    top: 0;
     left: 0;
-    padding: 10px;
-    pointer-events: none;
-    font-size: 16px;
-    color: black;
+    bottom: 0;
+    padding: 8px;
+    cursor: text;
 }
 
-.inputBox input:valid ~ span,
-.inputBox input:focus ~ span,
-.inputBox select:valid ~ span,
-.inputBox select:focus ~ span,
-.inputBox textarea:valid ~ span,
-.inputBox textarea:focus ~ span {
-    color: white;
-    transform: translateX(10px) translateY(-7px);
-    border-radius: 3px;
-    font-size: 10px;
-    padding: 0 10px;
-    background: green;
-    transition: 0.5s;
+.form_input:focus ~ .form_label,
+.form_input:not(:placeholder-shown).form_input:not(:focus) ~ .form_label {
+    top: -8px;
+    left: 8px;
+    font-size: 0.65em;
     text-transform: uppercase;
+    background: rgb(21, 78, 21);
+    padding: 0 4px;
+    bottom: auto;
+    color: white;
+    border-radius: 4px;
+    transition: 0.5s;
 }
 
-.inputBox input:valid,
-.inputBox input:focus,
-.inputBox select:valid,
-.inputBox select:focus,
-.inputBox textarea:valid,
-.inputBox textarea:focus {
-    border: 1px solid green;
-}
-
-.inputBox:nth-child(1) {
-    display: inline-block;
-    width: 245px;
+.form_select:focus ~ .form_label,
+.form_select:valid ~ .form_label {
+    top: -8px;
+    left: 8px;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    background: rgb(21, 78, 21);
+    padding: 0 4px;
+    bottom: auto;
+    color: white;
+    border-radius: 3px;
+    transition: 0.5s;
 }
 
 .inputBox:nth-child(2) {
     display: inline-block;
-    width: 245px;
+    width: 240px;
 }
 
 .inputBox:nth-child(3) {
-    display: block;
-    width: 245px;
+    display: inline-block;
+    width: 240px;
+}
+
+.inputBox:nth-child(4) {
+    display: inline-block;
+    width: 240px;
 }
 
 .inputBox:nth-child(6) {
     display: inline-block;
-    width: 245px;
+    width: 497px;
 }
 
 .inputBox:nth-child(7) {
     display: inline-block;
-    width: 245px;
+    width: 240px;
+}
+
+.inputBox:nth-child(8) {
+    display: inline-block;
+    width: 240px;
 }
 
 .inputBox:nth-child(10) {
-    display: block;
-    width: 500px;
+    display: inline-block;
+    width: 240px;
 }
 
 .kontakt button {
-    border: 1px solid green;
+    border: 1px solid rgb(21, 78, 21);
     border-radius: 5px;
-    background: white;
-    color: green;
+    background-image: linear-gradient(rgb(49, 165, 49), rgb(37, 82, 37));
+    color: white;
     width: 100px;
     height: 40px;
     font-weight: bold;
-    transition: 0.3s;
     box-shadow: 4px 4px 10px rgba(0,0,0,.25), -4px 0px 10px rgba(0,0,0,.25);
 }
 
 .kontakt button:hover {
-    background: green;
+    background-image: linear-gradient(rgb(37, 82, 37), rgb(49, 165, 49));
     color: white;
     cursor: pointer;
 }
+ 
