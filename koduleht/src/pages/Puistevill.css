@@ -1,0 +1,100 @@
+.main_body {
+    width: 100%;
+}
+
+.main_body .horizontal_line {
+    width: 100%;
+    height: 2px;
+    background: rgb(37, 82, 37);
+    margin-top: 50px;
+}
+
+.main_body .variant1 h1 {
+    color: rgb(21, 78, 21);
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.variant1 p {
+    color: black;
+    line-height: 25px;
+    text-align: justify;
+    margin-right: 100px;
+    line-height: 2em;
+}
+.variant1 img {
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(0,0,0,.25), -8px 0px 10px rgba(0,0,0,.25);
+}
+
+.eelised {
+    margin: 20px 25%;
+    padding: 20px;
+    width: 50%;
+}
+
+.eelised h1 {
+    color: rgb(21, 78, 21);
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.eelised ul {
+    color: black;
+    line-height: 2em;
+}
+
+.vill {
+    margin-top: 40px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.vill h1 {
+    color: rgb(21, 78, 21);
+    text-align: center;
+    margin: 0;
+}
+
+.villad {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.kast {
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.25), -4px 0px 10px rgba(0,0,0,.25);
+    background-image: url("/public/background3.png");
+	background-size: cover;
+    border: 2px solid rgb(37, 82, 37);
+    transition: 0.5s;
+}
+
+.kast:hover {
+    opacity: 0.85;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.kast h2 {
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+.kast p {
+    margin: 20px;
+    width: 210px;
+    text-align: justify;
+    color: white;
+}
+
+.kast img {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 2px solid rgb(37, 82, 37);
+}

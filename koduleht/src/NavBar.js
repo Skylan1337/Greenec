@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function NavBar() {
 	return (
 		<div className="header">
-			<img src="logo192.png" alt="Logo" title="Greenec OÜ" className="logo" />
+			<img src="logo1_white.png" alt="Logo" title="Greenec OÜ" className="logo" />
 			<div className="nav_links">
 				<ul>
 					<Link to=""><li className="special">Avaleht</li></Link>

@@ -10,22 +10,22 @@
 }
 
 .meist {
-    margin: 20px 25%;
-    padding: 20px;
+    margin: 40px 25%;
     width: 50%;
     display: flex;
+    padding: 20px;
 }
 
 .meist h1 {
-    color: black;
-    margin: 0;
-    margin-bottom: 30px;
+    color: rgb(21, 78, 21);
+    margin: 0 0 30px 0;
 }
 
 .meist p {
     color: black;
-    line-height: 25px;
+    line-height: 2em;
     text-align: justify;
+    width: 100%;
     margin-right: 100px;
 }
 
@@ -43,22 +43,26 @@
         "teenused teenused"
         "puistevill purvaht";
     justify-content: center;
+    background-image: url("/public/background3.png");
+	background-size: cover;
+    border-top: 2px solid rgb(37, 82, 37);
+    border-bottom: 2px solid rgb(37, 82, 37);
 }
 
 .teenused h1 {
-    color: black;
-    margin: 0;
+    color: white;
+    margin: 30px 0 30px 0;
     grid-area: teenused;
 }
 
 .teenused h2 {
-    color: black;
+    color: white;
 }
 
 .teenused p {
-    width: 50%;
+    width: 40%;
     margin: auto;
-    color: black;
+    color: white;
 }
 
 .teenused img {
@@ -66,23 +70,22 @@
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 50%;
-    box-shadow: 8px 8px 10px rgba(0,0,0,.25), -8px 0px 10px rgba(0,0,0,.25);
+    box-shadow: 16px 16px 10px rgba(0,0,0,.4), -16px 0px 10px rgba(0,0,0,.4);
+}
+
+.teenused img:hover {
+    cursor: pointer;
+    box-shadow: 16px 16px 10px rgba(0,0,0,.6), -16px 0px 10px rgba(0,0,0,.6);
 }
 
 .teenused .puistevill {
     grid-area: puistevill;
-}
-
-.teenused .puistevill:hover {
-    cursor: pointer;
+    margin-bottom: 30px;
 }
 
 .teenused .purvaht {
     grid-area: purvaht;
-}
-
-.teenused .purvaht:hover {
-    cursor: pointer;
+    margin-bottom: 30px;
 }
 
 .ImageSlider {
@@ -90,8 +93,8 @@
     width: 60%;
 }
 
-.ImageSlider h1 {
-    color: black;
+.main_body .ImageSlider h1 {
+    color: rgb(21, 78, 21);
     text-align: center;
     margin-bottom: 30px;
 }

@@ -1,106 +1,107 @@
 .main_body {
     width: 100%;
+    display: block;
 }
 
-.main_body .horizontal_line {
+.horizontal_line {
     width: 100%;
     height: 2px;
     background: rgb(37, 82, 37);
     margin-top: 50px;
 }
 
-.soojustamine {
+.variant1 {
     margin: 20px 25%;
     padding: 20px;
     width: 50%;
     display: flex;
 }
 
-.soojustamine h1 {
-    color: black;
+.main_body .variant1 h1 {
+    color: rgb(21, 78, 21);
     margin: 0;
     margin-bottom: 30px;
 }
 
-.soojustamine p {
+.variant1 p {
     color: black;
-    line-height: 25px;
     text-align: justify;
     margin-right: 100px;
+    line-height: 2em;
 }
-
-.soojustamine img {
+.variant1 img {
     width: 25%;
     border-radius: 10px;
     box-shadow: 8px 8px 10px rgba(0,0,0,.25), -8px 0px 10px rgba(0,0,0,.25);
 }
 
-.teenus {
+.variant2 {
+    margin: 20px 25%;
+    padding: 20px;
+    width: 50%;
     display: flex;
-    justify-content: space-evenly;
-    margin: 0 10%;
-    color: black;
-    margin-top: 50px;
-    margin-bottom: 40px;
 }
 
-.teenus .puistevill {
-    border: 2px solid rgb(21, 78, 21);
-    border-radius: 20px;
-    min-height: 400px;
-    width: 25%;
-    background-image: linear-gradient(whitesmoke, rgb(172, 165, 165));
-    box-shadow: 8px 8px 10px rgba(0,0,0,.25), -8px 0px 10px rgba(0,0,0,.25);
-}
-
-.teenus .puistevill:hover {
-    cursor: pointer;
-    background-image: linear-gradient(rgb(108, 170, 56), rgb(27, 112, 35));
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.teenus .pur-vaht {
-    border: 2px solid rgb(21, 78, 21);
-    border-radius: 20px;
-    min-height: 400px;
-    width: 25%;
-    background-image: linear-gradient(whitesmoke, rgb(172, 165, 165));
-    box-shadow: 8px 8px 10px rgba(0,0,0,.25), -8px 0px 10px rgba(0,0,0,.25);
-}
-
-.teenus .pur-vaht:hover {
-    cursor: pointer;
-    background-image: linear-gradient(rgb(108, 170, 56), rgb(27, 112, 35));
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.teenus h1 {
-    text-align: center;
-    padding: 0;
-}
-
-.content {
-    border-radius: 10px;
-    height: 80%;
-    width: 80%;
-    margin: 6% 10% 10% 10%;
-}
-
-.content img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.content ul {
-    list-style-type: none;
+.main_body .variant2 h1 {
+    color: rgb(21, 78, 21);
     margin: 0;
-    padding: 0;
+    margin-bottom: 30px;
+    text-align: right;
 }
 
-.content ul li {
-    font-size: 24px;
-    line-height: 48px;
-    border-bottom: 1px solid black;
+.variant2 p {
+    color: black;
+    text-align: justify;
+    margin-left: 100px;
+    width: 100%;
+    line-height: 2em;
+}
+
+.variant2 img {
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(0,0,0,.25), -8px 0px 10px rgba(0,0,0,.25);
+}
+
+.variant2 button {
+    float: right;
+    border: 1px solid rgb(21, 78, 21);
+    border-radius: 40px;
+    background-image: linear-gradient(90deg, rgb(49, 165, 49), rgb(37, 82, 37));
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.25), -4px 0px 10px rgba(0,0,0,.25);
+    transition: 0.5s;
+}
+
+.variant2 button:hover {
+    background-image: linear-gradient(90deg, rgb(37, 82, 37), rgb(49, 165, 49));
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.variant1 button {
+    border: 1px solid rgb(21, 78, 21);
+    border-radius: 40px;
+    background-image: linear-gradient(90deg, rgb(49, 165, 49), rgb(37, 82, 37));
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.25), -4px 0px 10px rgba(0,0,0,.25);
+    transition: 0.5s;
+}
+
+.variant1 button:hover {
+    background-image: linear-gradient(90deg, rgb(37, 82, 37), rgb(49, 165, 49));
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
 }

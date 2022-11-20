@@ -8,10 +8,12 @@ import PurVaht from './pages/PurVaht';
 import TehtudTood from './pages/TehtudTood';
 import Kontakt from './pages/Kontakt';
 import Footer from './Footer';
+import ScrollToTop from './pages/ScrollToTop';
 
 function App() {
   return (
     <div className="site">
+      <ScrollToTop />
       <NavBar />
       <div className="main">
         <div className="pilt">

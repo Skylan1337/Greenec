@@ -22,6 +22,8 @@ function Kontakt() {
                     KMKR nr: EE100863574
                     <br />
                     Arvelduskonto SEB pangas: EE471010220034281018
+                    <br /><br /><br />
+                    <img src="logo2_green.png" alt="Logo" title="Greenec OÜ" />
                 </h2>
             </div>
             <div className="center_vertical_line"></div>
@@ -45,7 +47,7 @@ function Kontakt() {
                 </div>
                 <div className="inputBox">
                     <select id="teenus" className="form_select" name="teenus" required>
-                        <option selected hidden></option>
+                        <option selected disabled></option>
                         <option value="puistevill">Puistevilla paigaldamine</option>
                         <option value="pur-vaht">PUR vahu paigaldamine</option>
                     </select>
